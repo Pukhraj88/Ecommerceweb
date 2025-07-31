@@ -98,7 +98,7 @@ const AddProduct = () => {
   const handleDeleteProduct = async (id) => {
     const password = window.prompt("Enter  password to delete:");
 
-  if (password !== "0012") {
+  if (password !== "xxxx2") {
     toast.error("Incorrect password. Delete operation cancelled.");
     return;
   }
