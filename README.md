@@ -18,7 +18,14 @@ https://pukhraj-ecom.netlify.app/
 
 
 ## 🛠️ Mobile View
+![WhatsApp Image 2025-07-31 at 20 35 08_46d184e0](https://github.com/user-attachments/assets/ca4a2308-937d-4e6a-baa6-974510f67902)
+![WhatsApp Image 2025-07-31 at 20 35 08_aabeabd0](https://github.com/user-attachments/assets/8392f633-5dd4-4797-a2c4-4d75ee2928b7)
 
+
+
+## 🔗 Live Demo
+https://pukhraj-ecom.netlify.app/
+👉 [View Live Site](https://pukhraj-ecom.netlify.app/)
 
 
 ## 🛠️ Tech Stack
