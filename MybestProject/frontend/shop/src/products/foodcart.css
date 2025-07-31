@@ -1,0 +1,11 @@
+.maindivfoodcart{
+    max-width: 300px;
+}
+.imgfoodcart{
+    object-fit: contain;
+    width: 100%;
+
+}
+.foodcart-li{
+  list-style-type: none;
+}

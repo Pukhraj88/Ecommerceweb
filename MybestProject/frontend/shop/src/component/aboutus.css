@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&family=Tilt+Warp&display=swap');
+
+@media (min-width:410px) and (max-width:1300px) {
+.aboutus-scoped .aboutuspage img {
+    width: 40%;
+    height: 45%;
+    float: left;
+    padding: 1%;
+    position: relative;
+}
+.aboutus-scoped #aboutustitle{
+    display: none;
+}
+
+}
+@media (max-width:410px) {
+
+}
+.aboutus-scoped .aboutuspage img {
+    width: 35%;
+    height: 45%;
+    display: block;
+    margin: 0;
+    position: relative;
+}
+
+/* dhram kanta */
+.aboutus-scoped #aboutustitle {
+    position: absolute;
+    font-family: 'Tilt Warp', sans-serif;
+    top: 11%;
+    left: 40%;
+    font-size: 28px; /* Interpreting 28rem as 28px */
+}
+
+.aboutus-scoped #aboutustitle::before {
+    content: 'HR';
+    font-family: "Saira Stencil One", sans-serif;
+    position: absolute;
+    font-size: 35px; /* Interpreting 35rem as 35px */
+    top: -100%;
+    left: 0%;
+}
+.aboutus-scoped #aboutustitle::after {
+    content: 'Building Material Supplier';
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 12px; /* Interpreting 12rem as 12px */
+    position: absolute;
+    top: 85%;
+    letter-spacing: 0.7px; /* Interpreting 0.7rem as 0.7px */
+    left: 0%;
+}
+
+.aboutus-scoped .aboutuspage {
+    background-color: hsl(0, 0%, 94%);
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px; /* Interpreting 20rem as 20px */
+}
+
+.aboutus-scoped .aboutuscontent p {
+    /* font-size: 18px;  */
+    font-family: 'jost';
+    text-align: justify;
+}
+
+.aboutus-scoped .aboutuscontent h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 25px; /* Interpreting 25rem as 25px */
+    text-align: justify;
+    line-height: 1;
+}
+
+.aboutus-scoped .aboutuscontent h2::first-letter {
+    font-size: 35px; /* Interpreting 35rem as 35px */
+    color: red;
+}
+
+.aboutus-scoped .aboutuscontent h3 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 17px; /* Interpreting 17rem as 17px */
+    word-spacing: 1px; /* Interpreting 1rem as 1px */
+    letter-spacing: 1px; /* Interpreting 1rem as 1px */
+    text-align: justify;
+    font-weight: 700;
+    line-height: 1.3;
+}
